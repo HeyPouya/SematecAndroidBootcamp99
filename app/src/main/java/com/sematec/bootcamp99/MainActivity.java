@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String age = edtAge.getText().toString();
                 txtTitle.setText(age);
+
+
+
             }
         });
 
