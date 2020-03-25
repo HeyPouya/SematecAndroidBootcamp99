@@ -4,4 +4,6 @@
     <string name="save">SAVE</string>
     <string name="first_quarter">First Quarter</string>
     <string name="jan">JAN</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="show">Show</string>
 </resources>
