@@ -1,0 +1,2 @@
+rootProject.name='SematecAndroidBootcamp99'
+include ':app'

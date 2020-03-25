@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SematecAndroidBootcamp99</string>
+    <string name="user_age">سن خود را وارد نمایید</string>
+    <string name="save">ذخیره</string>
+</resources>
