@@ -6,4 +6,7 @@
     <string name="jan">JAN</string>
     <string name="please_enter_your_name">Please enter your name</string>
     <string name="show">Show</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

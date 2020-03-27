@@ -12,19 +12,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestShapeSelectorActivity">
+        <activity android:name=".TestCustomViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestWebViewActivity">
+        <activity android:name=".TestServiceActivity">
         </activity>
+        <activity android:name=".TestViewPagerActivity"></activity>
+        <activity android:name=".TestFragmentActivity" />
+        <activity android:name=".TestNotificationActivity" />
+        <activity android:name=".TestHtmlActivity" />
+        <activity android:name=".TestVideoViewActivity" />
+        <activity android:name=".TestShapeSelectorActivity" />
+        <activity android:name=".TestWebViewActivity" />
         <activity
             android:name=".TestDialogActivity"
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
-        <activity android:name=".TestAlertDialogActivity"></activity>
+        <activity android:name=".TestAlertDialogActivity" />
         <activity android:name=".TestHandlerActivity" />
         <activity android:name=".TestMenuActivity" />
         <activity android:name=".TestPermissionActivity" />
@@ -43,6 +50,8 @@
                 <action android:name="android.intent.action.AIRPLANE_MODE" />
             </intent-filter>
         </receiver>
+
+        <service android:name=".TestService" />
     </application>
 
 </manifest>
