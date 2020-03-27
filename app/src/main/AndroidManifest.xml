@@ -3,6 +3,7 @@
     package="com.sematec.bootcamp99">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,21 +12,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestAsyncHttpClientActivity">
+        <activity android:name=".TestShapeSelectorActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestRecyclerActivity">
+        <activity android:name=".TestWebViewActivity">
         </activity>
-        <activity android:name=".TestDrawerActivity"></activity>
+        <activity
+            android:name=".TestDialogActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".TestAlertDialogActivity"></activity>
+        <activity android:name=".TestHandlerActivity" />
+        <activity android:name=".TestMenuActivity" />
+        <activity android:name=".TestPermissionActivity" />
+        <activity android:name=".TestDatabaseActivity" />
+        <activity android:name=".TestAsyncHttpClientActivity" />
+        <activity android:name=".TestRecyclerActivity" />
+        <activity android:name=".TestDrawerActivity" />
         <activity android:name=".TestSharedPreferencesActivity" />
         <activity android:name=".TestImplecitIntentActivity" />
         <activity android:name=".TestActivityShowName" />
         <activity android:name=".TestActivityEnterName" />
         <activity android:name=".MainActivity" />
+
+        <receiver android:name=".TestBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
